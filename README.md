@@ -44,6 +44,6 @@ for i in range(len(xvals)) :
     print( xvals[i] )
 ````
 
-works fine.  This way of coding is not very "pythonic" though.  If you are interested and have time do a bit of reading.  You will find that you can write loops like this one that use less code and that are thus better.  Count how many symbols you have used to write your program.   I had ?? symbols in the solution I would expect you to write based on the instructions I have given here.  I can reduce this down to ?? symbols though.  
+works fine.  This way of coding is not very "pythonic" though.  If you are interested and have time do a bit of reading.  You will find that you can write loops like this one that use less code and that are thus better.  Count how many symbols you have used to write your program.   I had 188 symbols in the solution I would expect you to write based on the instructions I have given here.  I can reduce this down to 126 symbols though by using the features I can find to shorten my code. 
 
     
