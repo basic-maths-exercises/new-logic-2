@@ -1,4 +1,6 @@
 import numpy as np
 
-# This loads the data from values.dat into the NumPy array called xvals
 xvals = np.loadtxt("values.dat")
+yvals = xvals
+for i,xv in enumerate(yvals) : 
+    if xv<0 : yvals[i]=-xv
