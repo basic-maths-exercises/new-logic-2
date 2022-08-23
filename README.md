@@ -4,26 +4,26 @@ To complete the previous exercise you probably had to copy and paste the same pi
 
 In the code in `main.py` the line:
 
-````
+```python
 xvals = np.loadtxt("values.dat")
-````
+```
 
 creates a NumPy array that contains 100 elements by reading in the numbers in the file called `values.dat`.  __Your task is to write a code that sets `yvals[i]` equal to the modulus of `xvals[i]`.__  Notice that you can print all the numbers in `xvals` on different lines by using a command like this:
 
-````
+```python
 for i in range(len(xvals)) :
     print( xvals[i] )
-````
+```
 
 Notice also that the following code:
 
-````
+```python
 for i in range(6) :
     if i<3 : 
        print( -1*i )
     else :
        print( i )
-````       
+```       
 
 Would output:
 
@@ -39,10 +39,10 @@ Would output:
 ****
 Code like this:
 
-````
+```python
 for i in range(len(xvals)) :
     print( xvals[i] )
-````
+```
 
 works fine.  This way of coding is not very "pythonic" though.  If you are interested and have time do a bit of reading.  You will find that you can write loops like this one that use less code and that are thus better.  Count how many symbols you have used to write your program.   I had 188 symbols in the solution I would expect you to write based on the instructions I have given here.  I can reduce this down to 126 symbols though by using the features I can find to shorten my code. 
 
